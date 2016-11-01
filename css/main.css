@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  font-family: 'Merriweather', serif;
+  font-family: Merriweather, serif;
   line-height: 1.5;
 }
 
@@ -23,8 +23,9 @@ h1 {
   text-align: center;
   padding: .4em 0;
 }
+
 .left {
-  margin-top: 1em  ;
+  margin-top: 1em;
   float: left;
   width: 40px;
 }
@@ -47,6 +48,12 @@ ul {
   margin: 0;
 }
 
+li {
+  border: 1px solid #a63f38;
+  font-size: 1.125rem;
+  padding: .5em;
+}
+
 ul li {
   float: left;
   width: 33.3333%;
@@ -55,8 +62,7 @@ ul li {
   text-align: center;
 }
 
-li {
-  border: 1px solid #a63f38;
-  font-size: 1.125rem;
-  padding: .5em;
+li:hover {
+  background-color: #a63f38;
+  color: #fff;
 }
